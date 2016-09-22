@@ -45,13 +45,7 @@ class ViewController: UIViewController, IMDbControllerDelegate, UISearchBarDeleg
     func setAllControlsVisibility(show: Bool) {
         
         activityIndicator.hidden    = !show
-        titleLabel.hidden           = !show
-        subtitleLabel.hidden        = !show
-        tomatoLabel.hidden          = !show
-        releasedLabel.hidden        = !show
-        ratingLabel.hidden          = !show
-        plotLabel.hidden            = !show
-        posterImageView.hidden      = !show
+        setFormControlsVisibility(show)
         
     }
     
